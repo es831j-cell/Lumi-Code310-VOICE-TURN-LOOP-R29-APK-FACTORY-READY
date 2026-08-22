@@ -1,0 +1,6 @@
+LUMI CODE 304 / 4.0.57-3d-mobius-r23
+APK FACTORY / GITHUB BUILD SOURCE READY
+
+Primary change: real-time parametric 3D Möbius home core using Android OpenGL ES 2.0.
+The strip is generated geometry, not a bitmap. State-driven object rotation and vertex deformation are enabled.
+Preserves Guardian 1.8 / code 9 bridge completion and Code303 home controls.
