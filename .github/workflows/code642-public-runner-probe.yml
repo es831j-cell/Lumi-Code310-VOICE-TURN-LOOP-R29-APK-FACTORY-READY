@@ -1,0 +1,16 @@
+name: Code642 Public Runner Probe
+on:
+  push:
+    branches:
+      - code642-public-runner-probe
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Runner proof
+        run: |
+          echo "runner=$(uname -a)"
+          echo "code642 public runner available"
